@@ -122,4 +122,18 @@ extension EnochTableViewController: UITableViewDataSource, UITableViewDelegate {
         self.navigationController?.pushViewController(preview, animated: true)
     }
     
+    func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let action = UIContextualAction(style: .normal, title: "你好") { (_, _, _) in
+            
+        }
+        return UISwipeActionsConfiguration(actions: [action])
+    }
+    
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let action = UIContextualAction(style: .destructive, title: "美女") { (_, _, _) in
+            
+        }
+        return UISwipeActionsConfiguration(actions: [action])
+    }
+    
 }
