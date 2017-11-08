@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBCD57371FB153710050C59D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD57361FB153710050C59D /* AppDelegate.swift */; };
+		BBCD57391FB153710050C59D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD57381FB153710050C59D /* ViewController.swift */; };
+		BBCD573C1FB153710050C59D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCD573A1FB153710050C59D /* Main.storyboard */; };
+		BBCD573E1FB153710050C59D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCD573D1FB153710050C59D /* Assets.xcassets */; };
+		BBCD57411FB153710050C59D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCD573F1FB153710050C59D /* LaunchScreen.storyboard */; };
+		BBCD574C1FB153710050C59D /* EnochDragDropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD574B1FB153710050C59D /* EnochDragDropTests.swift */; };
+		BBCD57571FB153710050C59D /* EnochDragDropUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD57561FB153710050C59D /* EnochDragDropUITests.swift */; };
+		BBCD57671FB153A60050C59D /* EnochViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD57641FB153A50050C59D /* EnochViewController.swift */; };
+		BBCD57681FB153A60050C59D /* EnochPasteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD57651FB153A60050C59D /* EnochPasteImageView.swift */; };
+		BBCD57691FB153A60050C59D /* EnochCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD57661FB153A60050C59D /* EnochCollectionViewController.swift */; };
+		BBCD576B1FB1609A0050C59D /* EnochImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD576A1FB1609A0050C59D /* EnochImageCell.swift */; };
+		BBCD576D1FB198320050C59D /* EnochTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD576C1FB198320050C59D /* EnochTableViewController.swift */; };
+		BBCD576F1FB19E4B0050C59D /* EnochPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD576E1FB19E4B0050C59D /* EnochPreviewViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBCD57481FB153710050C59D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBCD572B1FB153710050C59D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBCD57321FB153710050C59D;
+			remoteInfo = EnochDragDrop;
+		};
+		BBCD57531FB153710050C59D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBCD572B1FB153710050C59D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBCD57321FB153710050C59D;
+			remoteInfo = EnochDragDrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBCD57331FB153710050C59D /* EnochDragDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnochDragDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBCD57361FB153710050C59D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBCD57381FB153710050C59D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBCD573B1FB153710050C59D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBCD573D1FB153710050C59D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBCD57401FB153710050C59D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBCD57421FB153710050C59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBCD57471FB153710050C59D /* EnochDragDropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnochDragDropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBCD574B1FB153710050C59D /* EnochDragDropTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnochDragDropTests.swift; sourceTree = "<group>"; };
+		BBCD574D1FB153710050C59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBCD57521FB153710050C59D /* EnochDragDropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnochDragDropUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBCD57561FB153710050C59D /* EnochDragDropUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnochDragDropUITests.swift; sourceTree = "<group>"; };
+		BBCD57581FB153720050C59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBCD57641FB153A50050C59D /* EnochViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnochViewController.swift; sourceTree = "<group>"; };
+		BBCD57651FB153A60050C59D /* EnochPasteImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnochPasteImageView.swift; sourceTree = "<group>"; };
+		BBCD57661FB153A60050C59D /* EnochCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnochCollectionViewController.swift; sourceTree = "<group>"; };
+		BBCD576A1FB1609A0050C59D /* EnochImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnochImageCell.swift; sourceTree = "<group>"; };
+		BBCD576C1FB198320050C59D /* EnochTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnochTableViewController.swift; sourceTree = "<group>"; };
+		BBCD576E1FB19E4B0050C59D /* EnochPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnochPreviewViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBCD57301FB153710050C59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCD57441FB153710050C59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCD574F1FB153710050C59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBCD572A1FB153710050C59D = {
+			isa = PBXGroup;
+			children = (
+				BBCD57351FB153710050C59D /* EnochDragDrop */,
+				BBCD574A1FB153710050C59D /* EnochDragDropTests */,
+				BBCD57551FB153710050C59D /* EnochDragDropUITests */,
+				BBCD57341FB153710050C59D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBCD57341FB153710050C59D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBCD57331FB153710050C59D /* EnochDragDrop.app */,
+				BBCD57471FB153710050C59D /* EnochDragDropTests.xctest */,
+				BBCD57521FB153710050C59D /* EnochDragDropUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBCD57351FB153710050C59D /* EnochDragDrop */ = {
+			isa = PBXGroup;
+			children = (
+				BBCD57361FB153710050C59D /* AppDelegate.swift */,
+				BBCD57381FB153710050C59D /* ViewController.swift */,
+				BBCD576C1FB198320050C59D /* EnochTableViewController.swift */,
+				BBCD57661FB153A60050C59D /* EnochCollectionViewController.swift */,
+				BBCD576A1FB1609A0050C59D /* EnochImageCell.swift */,
+				BBCD57651FB153A60050C59D /* EnochPasteImageView.swift */,
+				BBCD57641FB153A50050C59D /* EnochViewController.swift */,
+				BBCD576E1FB19E4B0050C59D /* EnochPreviewViewController.swift */,
+				BBCD573A1FB153710050C59D /* Main.storyboard */,
+				BBCD573D1FB153710050C59D /* Assets.xcassets */,
+				BBCD573F1FB153710050C59D /* LaunchScreen.storyboard */,
+				BBCD57421FB153710050C59D /* Info.plist */,
+			);
+			path = EnochDragDrop;
+			sourceTree = "<group>";
+		};
+		BBCD574A1FB153710050C59D /* EnochDragDropTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBCD574B1FB153710050C59D /* EnochDragDropTests.swift */,
+				BBCD574D1FB153710050C59D /* Info.plist */,
+			);
+			path = EnochDragDropTests;
+			sourceTree = "<group>";
+		};
+		BBCD57551FB153710050C59D /* EnochDragDropUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBCD57561FB153710050C59D /* EnochDragDropUITests.swift */,
+				BBCD57581FB153720050C59D /* Info.plist */,
+			);
+			path = EnochDragDropUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBCD57321FB153710050C59D /* EnochDragDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBCD575B1FB153720050C59D /* Build configuration list for PBXNativeTarget "EnochDragDrop" */;
+			buildPhases = (
+				BBCD572F1FB153710050C59D /* Sources */,
+				BBCD57301FB153710050C59D /* Frameworks */,
+				BBCD57311FB153710050C59D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnochDragDrop;
+			productName = EnochDragDrop;
+			productReference = BBCD57331FB153710050C59D /* EnochDragDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBCD57461FB153710050C59D /* EnochDragDropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBCD575E1FB153720050C59D /* Build configuration list for PBXNativeTarget "EnochDragDropTests" */;
+			buildPhases = (
+				BBCD57431FB153710050C59D /* Sources */,
+				BBCD57441FB153710050C59D /* Frameworks */,
+				BBCD57451FB153710050C59D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBCD57491FB153710050C59D /* PBXTargetDependency */,
+			);
+			name = EnochDragDropTests;
+			productName = EnochDragDropTests;
+			productReference = BBCD57471FB153710050C59D /* EnochDragDropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBCD57511FB153710050C59D /* EnochDragDropUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBCD57611FB153720050C59D /* Build configuration list for PBXNativeTarget "EnochDragDropUITests" */;
+			buildPhases = (
+				BBCD574E1FB153710050C59D /* Sources */,
+				BBCD574F1FB153710050C59D /* Frameworks */,
+				BBCD57501FB153710050C59D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBCD57541FB153710050C59D /* PBXTargetDependency */,
+			);
+			name = EnochDragDropUITests;
+			productName = EnochDragDropUITests;
+			productReference = BBCD57521FB153710050C59D /* EnochDragDropUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBCD572B1FB153710050C59D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = meng;
+				TargetAttributes = {
+					BBCD57321FB153710050C59D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					BBCD57461FB153710050C59D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BBCD57321FB153710050C59D;
+					};
+					BBCD57511FB153710050C59D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BBCD57321FB153710050C59D;
+					};
+				};
+			};
+			buildConfigurationList = BBCD572E1FB153710050C59D /* Build configuration list for PBXProject "EnochDragDrop" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBCD572A1FB153710050C59D;
+			productRefGroup = BBCD57341FB153710050C59D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBCD57321FB153710050C59D /* EnochDragDrop */,
+				BBCD57461FB153710050C59D /* EnochDragDropTests */,
+				BBCD57511FB153710050C59D /* EnochDragDropUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBCD57311FB153710050C59D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCD57411FB153710050C59D /* LaunchScreen.storyboard in Resources */,
+				BBCD573E1FB153710050C59D /* Assets.xcassets in Resources */,
+				BBCD573C1FB153710050C59D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCD57451FB153710050C59D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCD57501FB153710050C59D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBCD572F1FB153710050C59D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCD57681FB153A60050C59D /* EnochPasteImageView.swift in Sources */,
+				BBCD576D1FB198320050C59D /* EnochTableViewController.swift in Sources */,
+				BBCD576F1FB19E4B0050C59D /* EnochPreviewViewController.swift in Sources */,
+				BBCD576B1FB1609A0050C59D /* EnochImageCell.swift in Sources */,
+				BBCD57691FB153A60050C59D /* EnochCollectionViewController.swift in Sources */,
+				BBCD57391FB153710050C59D /* ViewController.swift in Sources */,
+				BBCD57671FB153A60050C59D /* EnochViewController.swift in Sources */,
+				BBCD57371FB153710050C59D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCD57431FB153710050C59D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCD574C1FB153710050C59D /* EnochDragDropTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCD574E1FB153710050C59D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCD57571FB153710050C59D /* EnochDragDropUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBCD57491FB153710050C59D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBCD57321FB153710050C59D /* EnochDragDrop */;
+			targetProxy = BBCD57481FB153710050C59D /* PBXContainerItemProxy */;
+		};
+		BBCD57541FB153710050C59D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBCD57321FB153710050C59D /* EnochDragDrop */;
+			targetProxy = BBCD57531FB153710050C59D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBCD573A1FB153710050C59D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBCD573B1FB153710050C59D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBCD573F1FB153710050C59D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBCD57401FB153710050C59D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBCD57591FB153720050C59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBCD575A1FB153720050C59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBCD575C1FB153720050C59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TUJ7X5798B;
+				INFOPLIST_FILE = EnochDragDrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = meng.EnochDragDrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBCD575D1FB153720050C59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TUJ7X5798B;
+				INFOPLIST_FILE = EnochDragDrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = meng.EnochDragDrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BBCD575F1FB153720050C59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EnochDragDropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = meng.EnochDragDropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnochDragDrop.app/EnochDragDrop";
+			};
+			name = Debug;
+		};
+		BBCD57601FB153720050C59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EnochDragDropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = meng.EnochDragDropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnochDragDrop.app/EnochDragDrop";
+			};
+			name = Release;
+		};
+		BBCD57621FB153720050C59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EnochDragDropUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = meng.EnochDragDropUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnochDragDrop;
+			};
+			name = Debug;
+		};
+		BBCD57631FB153720050C59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EnochDragDropUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = meng.EnochDragDropUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnochDragDrop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBCD572E1FB153710050C59D /* Build configuration list for PBXProject "EnochDragDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBCD57591FB153720050C59D /* Debug */,
+				BBCD575A1FB153720050C59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBCD575B1FB153720050C59D /* Build configuration list for PBXNativeTarget "EnochDragDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBCD575C1FB153720050C59D /* Debug */,
+				BBCD575D1FB153720050C59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBCD575E1FB153720050C59D /* Build configuration list for PBXNativeTarget "EnochDragDropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBCD575F1FB153720050C59D /* Debug */,
+				BBCD57601FB153720050C59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBCD57611FB153720050C59D /* Build configuration list for PBXNativeTarget "EnochDragDropUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBCD57621FB153720050C59D /* Debug */,
+				BBCD57631FB153720050C59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBCD572B1FB153710050C59D /* Project object */;
+}
